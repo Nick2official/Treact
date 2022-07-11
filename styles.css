@@ -421,12 +421,13 @@ border: none;
     border: 2px solid lightgrey;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    height: 250px;
-    width: 331px;
+    height: 200px;
+    width: 331px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     
 }
 
@@ -469,6 +470,11 @@ border: none;
     color: #6415ff;
 }
 
+.plan__button--pink {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+
+}
+
 .text--white {
     color: #fff;
 }
@@ -477,4 +483,110 @@ border: none;
     display: flex;
     justify-content: space-between;
 }
+
+.individual__text {
+    padding: 10px 0;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    
+}
+
+.individual__header {
+    font-size: 20px;
+}
+
+/* TESTIMONIALS */
+
+.testimonial__wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+
+.testimonial__details {
+    position: relative;
+    padding-left: 48px;
+    width: 640px;
+    
+ 
+}
+
+.stars {
+    padding-bottom: 8px;
+    color: #fabf2a; 
+
+}
+
+.testimonial__profile {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width:270px;
+}
+
+.test__img {
+    width: 600px;
+    
+}
+
+.test__profile__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 9999px;
+    
+}
+
+.testimonial__para--1 {
+    width: 576px;
+    padding: 24px 0 64px 0;
+}
+
+.testimonial__para--2 {
+    width: 576px;
+    padding: 16px 0 32px 0;
+}
+
+
+/* closer */
+
+.closer__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closer__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #6415ff;
+   border-radius: 8px;
+    width: 1300px;
+    height: 282px;
+}
+.closer__button--1 {
+    background-color: #f56565;
+    padding: 20px 50px;
+    font-weight: 700;
+    margin-right: 32px;
+
+}  
+
+.closer__button--2 {
+    border: 1px solid #fff;
+    padding: 20px 50px;
+    font-weight: 700;
+
+}  
+
+.closer__para {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    width: 450px;
+}
+
+/* footer */
 
